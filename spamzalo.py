@@ -1,4 +1,4 @@
-from tkinter import messagebox
+
 import pyautogui
 import time
 import keyboard 
@@ -51,18 +51,12 @@ def validate_key(user_key: str) -> bool:
                     key_info["used"] = True 
                     return True
                 else:
-                    messagebox.showerror("Đã có người khác dùng key")
-                    messagebox.showerror("The key has been used by another user")
                     print(Fore.RED + "Khóa trải nghiệm đã được sử dụng.")
                     return False
             else:
-                messagebox.showerror("Khóa trải nghiệm đã hết hạn")
-                messagebox.showerror("The trial key has expired")
                 print(Fore.RED + "Khóa trải nghiệm đã hết hạn.")
                 return False
     else:
-        messagebox.showerror("Khóa không hợp lệ")
-        messagebox.showerror("Invalid key")
         print(Fore.RED + "Khóa không hợp lệ.")
         return False
 

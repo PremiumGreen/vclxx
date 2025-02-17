@@ -11,10 +11,6 @@ import requests
 from datetime import datetime
 from colorama import Fore, init
 
-def windowtitle(a):
-    os.system(f"title {a}")
-windowtitle("N̴̗̜̜̼̤̈́͂̑͋͋̈̌͆͋̓̉̑͝͝ģ̴̛̱̫͕͎̻̩͚̺͖̣̖̠̘̝̀̃͆̽̆̈́̈́̅̈͒̾̈́̇̐͒̈̚͝͝ͅơ̴͔̂͊̔̆͐͛̈́͂̌͗̂̇̊͋͠͠͠͝ͅc̸̢̫̓̉H̸̨̢͕̬̺͔͔̟̗̐̐̍̊̿͂̾̋̈́͂́̂̇̈̑͘̚͜͜͠ű̵̧̧̙̼͖̺͈̲̭͉͕̖̬̪̝͖̟̭͔̱̤̠̳̥̃̀̍͑͗͛̈̄̚͜ͅͅͅy̴̭̳̗͎̣̳̗͍̠̲̘̎̌͛̅́̊͝͠")
-
 init(autoreset=True)
 
 def hash_key(key: str) -> str:
